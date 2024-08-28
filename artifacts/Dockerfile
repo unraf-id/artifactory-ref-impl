@@ -108,6 +108,7 @@ ENV master_template_path=${base_path}/libs-release-local/master-templates
 
 # environment variable for child auth filter jar path
 ENV child_auth_filter_jar_path=${base_path}/libs-release-local/io/mosip/authentication/authentication-ref-impl
+ENV kernel_jar_path=${base_path}/libs-release-local/io/mosip/kernel
 
 # environment variable for script path
 ENV scripts_path=/home/mosip/scripts
@@ -162,6 +163,8 @@ COPY /src/theme/esignet-theme/* ${work_dir}/esignet-theme/
 COPY /src/jre/zulu11.41.23-ca-fx-jre11.0.8-win_x64.zip ${regclient_jar_path}/zulu11.41.23-ca-fx-jre11.0.8-win_x64.zip
 
 COPY /src/icu4j/* ${icu4j_jar_path}/
+
+COPY /src/sms/* ${kernel_jar_path}/
 
 COPY /src/auth/* ${regproc_jar_path}/
 
