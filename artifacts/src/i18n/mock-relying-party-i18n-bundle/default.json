@@ -1,12 +1,6 @@
 {
   "languages": {
-    "en": "English",
-	"es": "Española",
-    "hi": "हिंदी",
-    "ar": "عربى",
-    "km": "ខ្មែរ",
-    "kn": "ಕನ್ನಡ",
-    "ta": "தமிழ்"
+    "es": "Española"
   },
   "rtlLanguages": ["ar"]
 }
