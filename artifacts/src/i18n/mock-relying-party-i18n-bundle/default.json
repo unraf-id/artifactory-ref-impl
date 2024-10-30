@@ -1,6 +1,8 @@
 {
   "languages": {
-    "es": "Española"
+    "es": "Española",
+    "en": "English"
+
   },
   "rtlLanguages": ["ar"]
 }
