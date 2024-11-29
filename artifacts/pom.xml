@@ -285,7 +285,7 @@
 					 <outputDirectory>${biosdk-client-lib.location}</outputDirectory> 
 					<destFileName>${mock-sdk.fileName}</destFileName>
 					<type>jar</type>
-				</artifactItem>	-->
+				</artifactItem>
 				<artifactItem>
 					<groupId>io.mosip.mock.sdk</groupId>
 					<artifactId>mock-sdk</artifactId>
@@ -294,7 +294,7 @@
 					<destFileName>${mock-sdk.fileName}</destFileName>
 					<classifier>jar-with-dependencies</classifier>
 					<type>jar</type>
-				</artifactItem>
+				</artifactItem>-->
 <!-- artifactItem section for childauthfilter jar -->
 				<artifactItem>
 					<groupId>io.mosip.authentication</groupId>

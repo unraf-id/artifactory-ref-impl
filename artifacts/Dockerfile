@@ -140,6 +140,8 @@ COPY /src/sdk/biosdk/install.sh ${biosdk_client_zip_path}/biosdk-client/
 
 COPY /src/sms/* ${kernel_jar_path}/
 
+COPY /src/sdk/biosdk/mock-sdk* ${biosdk_client_zip_path}/biosdk-client
+
 COPY /src/sdk/biosdk/mock-sdk* ${biosdk_lib_zip_path}/biosdk-lib
 
 COPY /src/sdk/demosdk/install.sh ${demosdk_zip_path}/demosdk/
